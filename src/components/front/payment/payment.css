@@ -1,0 +1,26 @@
+.card-payment {
+    border: 0.1rem #c0c0c0 solid;
+    background-color: #f8f8f8;
+    border-radius: 0.5rem;
+    width: 24rem;
+    text-align: center;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 2rem auto;
+    font-weight: bold;
+    font-family: var(--font-family);
+}
+
+.card-payment-body {
+    padding: 1rem;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.card-payment-body > * {
+    margin-bottom: 0.5rem;
+}
