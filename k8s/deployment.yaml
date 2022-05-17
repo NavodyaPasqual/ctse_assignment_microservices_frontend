@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: microservices-k8s-front
+spec:
+  selector:
+    matchLabels:
+      app: microservices-k8s-front
+  replicas: 2
+  template:
+    metadata: 
+      labels:
+        app: microservices-k8s-front
+    spec:
+      containers:
+        - name: microservices-k8s-front
+          image: navodyapasqual25/microservices-k8s-front
+          ports: 
+            - containerPort: 3000
