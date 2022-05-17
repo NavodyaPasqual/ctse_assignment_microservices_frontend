@@ -1,6 +1,7 @@
 .products {
     max-width: 1300px;
     margin-top: 10px;
+   margin: auto;
 }
 
 .mainTitle {
